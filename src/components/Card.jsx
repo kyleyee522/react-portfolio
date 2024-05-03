@@ -1,7 +1,8 @@
+import '../styles/Card.css';
 const Card = () => {
 	return (
 		<>
-			<h1>Da Card</h1>
+			<h1>Portfolio cards</h1>
 		</>
 	);
 };

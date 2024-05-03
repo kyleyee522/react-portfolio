@@ -1,7 +1,14 @@
+import { Link } from 'react-router-dom';
+import '../styles/Nav.css';
 const Nav = () => {
 	return (
 		<>
-			<h1>Da Navbar</h1>
+			<div>
+				<Link to={'/'}>Portfolio</Link>
+				<Link to={'/aboutme'}>About Me</Link>
+				<Link to={'/contactme'}>Contact</Link>
+				<Link to={'/resume'}>Resume</Link>
+			</div>
 		</>
 	);
 };
